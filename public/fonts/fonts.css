@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Klavika Bold";
+  src: url("Klavika-Bold.eot"); /* IE9 Compat Modes */
+  src: url("Klavika-Bold.eot?#iefix") format("embedded-opentype") /* IE6-IE8 */,
+    url("Klavika-Bold.woff") format("woff") /* Pretty Modern Browsers */,
+    url("Klavika-Bold.ttf") format("truetype") /* Safari, Android, iOS */,
+    url("Klavika-Bold.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Klavika Light";
+  src: url("Klavika-Light.eot"); /* IE9 Compat Modes */
+  src: url("Klavika-Light.eot?#iefix") format("embedded-opentype") /* IE6-IE8 */,
+    url("Klavika-Light.woff") format("woff") /* Pretty Modern Browsers */,
+    url("Klavika-Light.ttf") format("truetype") /* Safari, Android, iOS */,
+    url("Klavika-Light.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Klavika Medium";
+  src: url("Klavika-Medium.eot"); /* IE9 Compat Modes */
+  src: url("Klavika-Medium.eot?#iefix") format("embedded-opentype") /* IE6-IE8 */,
+    url("Klavika-Medium.woff") format("woff") /* Pretty Modern Browsers */,
+    url("Klavika-Medium.ttf") format("truetype") /* Safari, Android, iOS */,
+    url("Klavika-Medium.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: "Klavika Regular";
+  src: url("Klavika-Regular.eot"); /* IE9 Compat Modes */
+  src: url("Klavika-Regular.eot?#iefix") format("embedded-opentype") /* IE6-IE8 */,
+    url("Klavika-Regular.woff") format("woff") /* Pretty Modern Browsers */,
+    url("Klavika-Regular.ttf") format("truetype") /* Safari, Android, iOS */,
+    url("Klavika-Regular.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
