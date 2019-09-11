@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -20,6 +21,9 @@ const Wrapper = styled.div`
 
 const ButtonWrapper = styled.div`
   display: flex;
+  a {
+    text-decoration: none;
+  }
   a:not(:last-child) {
     margin-right: 2rem;
   }
@@ -38,7 +42,7 @@ const Font28 = styled.p`
   }
 `
 
-const Font24 = styled.a`
+const Font24 = styled.p`
   font-family: Klavika Light;
   font-size: 2.4rem;
   color: #fff;
@@ -52,10 +56,18 @@ const NavBar = () => (
   <Wrapper>
     <Font28>Josh Technology Group</Font28>
     <ButtonWrapper>
-      <Font24 href="#">Play</Font24>
-      <Font24 href="#">Explore</Font24>
-      <Font24 href="#">Connect</Font24>
-      <Font24 href="#">Apply</Font24>
+      <Link>
+        <Font24 href="#">Play</Font24>
+      </Link>
+      <Link>
+        <Font24 href="#">Explore</Font24>
+      </Link>
+      <Link>
+        <Font24 href="#">Connect</Font24>
+      </Link>
+      <Link>
+        <Font24 href="#">Apply</Font24>
+      </Link>
     </ButtonWrapper>
   </Wrapper>
 )

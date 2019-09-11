@@ -34,7 +34,7 @@ const LinkWrapper = styled.div`
     text-align: center;
     margin-bottom: 2rem;
   }
-  a {
+  p:last-child {
     text-align: center;
     padding: 1rem 2rem;
     border: 1px solid #fff;
@@ -60,7 +60,7 @@ const Font40 = styled.p`
     font-size: 2.4rem;
   }
 `
-const Font24 = styled.a`
+const Font24 = styled.p`
   font-family: Klavika Light;
   font-size: 2.4rem;
   color: #fff;
